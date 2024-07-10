@@ -3,7 +3,7 @@ import os
 
 client = openai.OpenAI()
 
-api_key = os.environ.get('OPENAI_API_KEY')
+api_key = os.environ.get('OPENAI_API_KEY_ABAP_TEST')
 
 if api_key:
     print("API Key found")
